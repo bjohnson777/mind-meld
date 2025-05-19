@@ -2,7 +2,7 @@ let questions = [];
 let currentIndex = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('questions.json')
+  fetch('Questions.json')
     .then(res => res.json())
     .then(data => {
       questions = data;
